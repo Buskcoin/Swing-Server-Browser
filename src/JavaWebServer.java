@@ -38,7 +38,6 @@ public class JavaWebServer {
 		BufferedReader in;
 		PrintWriter out;
 		String request = "";
-		String responseFile;
 
 		try {
 			in = new BufferedReader(new InputStreamReader(s.getInputStream()));
